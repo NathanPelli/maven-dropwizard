@@ -28,7 +28,14 @@ public class HelloWorldApplication extends Application<HelloWorldConfiguration>{
 		return "hello-world";
 	}
 	public void initialize(Bootstrap<HelloWorldConfiguration> bootstrap){
-		
+		System.out.println("现在处于程序初始化阶段,请耐心等候。。。。。。");
+		try {
+			Thread.sleep(10*1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("程序预热完成......");
 	}
 	
 }
