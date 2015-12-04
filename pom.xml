@@ -26,7 +26,16 @@
 	<artifactId>dropwizard-core</artifactId>
 	<version>0.8.4</version>
 	</dependency>
-	
+	<dependency>
+	<groupId>com.hubspot.dropwizard</groupId>
+	<artifactId>dropwizard-guice</artifactId>
+	<version>0.8.1.1</version>
+	</dependency>
+    <dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>3.0</version>
+    </dependency>
 	<dependency>
 	<groupId>com.rabbitmq</groupId>
 	<artifactId>amqp-client</artifactId>
